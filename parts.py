@@ -34,7 +34,7 @@ class Part():
    slot = ''
 
    def __init__(self, partname=''):
-      self.type = types[random.randrange(0,1)]
+      self.type = types[random.randrange(0,2)]
       qual = random.randrange(0,10)
       if self.type == 'organic':
          if qual <= 7:
